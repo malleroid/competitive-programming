@@ -6,4 +6,4 @@
 
 cd ./$1/$2/$3/
 acc submit $3.py
-cd /workspaces/atcoder/
+cd "$(dirname "$0")"
