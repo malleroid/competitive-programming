@@ -1,0 +1,31 @@
+{
+    "name": "algo-method",
+    "context": "..",
+    "dockerFile": "Dockerfile",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash",
+        // "python.pythonPath": "/usr/local/bin/python",
+        // "python.linting.enabled": true,
+        // "python.linting.pylintEnabled": false,
+        // "python.linting.pylintEnabled": true,
+        // "python.linting.pylintPath": "/usr/local/bin/pylint"
+    },
+    // "appPort": [ 8501 ],
+    // "postCreateCommand": "pip3 install -r requirements.txt && apt install -y gdb",
+    // "remoteUser": "vscode",
+    "extensions": [
+        "coenraads.bracket-pair-colorizer-2",
+        "sanaajani.taskrunnercode",
+        "rebornix.ruby",
+        "castwide.solargraph",
+        "misogi.ruby-rubocop",
+        "vscode-icons-team.vscode-icons",
+        "mhutchie.git-graph",
+        "eamodio.gitlens",
+        "ms-vscode.cpptools",
+        "austin.code-gnu-global",
+    ],
+    // "mounts": [
+    //   "source=/home/malleus/workspace/atcoder,target=/workspace/atcoder",
+    // ],
+}

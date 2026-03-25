@@ -1,0 +1,1 @@
+puts (1..100).each.count{|i| i%2==1}

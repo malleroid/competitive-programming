@@ -1,0 +1,1 @@
+puts 679.fdiv(18).ceil
