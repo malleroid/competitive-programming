@@ -1,4 +1,4 @@
-FROM ruby:3.0@sha256:dcb8a8a6ee981f949da505cb9f4f15cde696e7bcb088955bc1f92f23a4cd7a72
+FROM ruby:3.4@sha256:b3ea7616e6cb56f079befb439d304720396fba7802db25e55e6c983eed1800a1
 
 RUN apt update \
     && apt upgrade -y \
